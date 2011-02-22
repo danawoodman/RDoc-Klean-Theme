@@ -92,11 +92,15 @@ pre {
     #classHeader a, #fileHeader a {
         color: #fff;
     }
-
-.class-name-in-header {
-  font-size:  30px;
-  font-weight: bold;
-}
+    #fileHeader h1 {
+        margin-left: 38px;
+    }
+    #fileHeader h1,
+    .class-name-in-header {
+        color: #fff;
+        font-size:  30px;
+        font-weight: bold;
+    }
 
 
 #bodyContent,
