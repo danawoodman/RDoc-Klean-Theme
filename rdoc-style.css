@@ -1,3 +1,6 @@
+/* -----------------------------------------------------------------------------
+    HTML
+----------------------------------------------------------------------------- */
 
 body {
     background: #fff;
@@ -9,9 +12,20 @@ body {
 }
 
 /* Headings */
-h1,h2,h3,h4 { margin: 0; color: #efefef; background: transparent; }
-h1 { font-size: 150%; }
-h2,h3,h4 { margin-top: 1em; }
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    color: #efefef;
+    background: transparent;
+}
+h1 {
+    font-size: 150%;
+}
+h2,h3,h4 {
+    margin-top: 1em;
+}
 
 /* Links */
 a {
@@ -36,6 +50,7 @@ td > a {
 }*/
 
 /* Code. */
+tt,
 code, 
 pre {
     background: #E4F2DC;
@@ -46,7 +61,9 @@ pre {
     padding: 15px 5px;
 }
 
-/* === Structural elements =================================== */
+/* -----------------------------------------------------------------------------
+    Structure
+----------------------------------------------------------------------------- */
 
 /* #index {
     margin: 0;
@@ -138,7 +155,9 @@ pre {
 }
 
 
-/* === Classes =================================== */
+/* -----------------------------------------------------------------------------
+    Classes
+----------------------------------------------------------------------------- */
 
 table.header-table {
     color: white;
@@ -208,23 +227,43 @@ div.method-source-code {
 
 div.method-source-code pre { color: #ffdead; overflow: hidden; }
 
-/* --- Ruby keyword styles --------------------- */
-
-/* .standalone-code { background: #221111; color: #ffdead; overflow: hidden; } */
+/* -----------------------------------------------------------------------------
+    Code browsing
+----------------------------------------------------------------------------- */
 .standalone-code {
-    color: #353535;
+    background: #fff;
+    color: #2A2A2A;
     text-align: left;
 }
     .standalone-code pre {
-        
+        background: none;
     }
 
-.ruby-constant  { color: #7fffd4; background: transparent; }
-.ruby-keyword { color: #00ffff; background: transparent; }
-.ruby-ivar    { color: #eedd82; background: transparent; }
-.ruby-operator  { color: #00ffee; background: transparent; }
-.ruby-identifier { color: #ffdead; background: transparent; }
-.ruby-node    { color: #ffa07a; background: transparent; }
-.ruby-comment { color: #b22222; font-weight: bold; background: transparent; }
-.ruby-regexp  { color: #ffa07a; background: transparent; }
-.ruby-value   { color: #7fffd4; background: transparent; }
+.ruby-constant {
+    color: #184C99;
+}
+.ruby-keyword {
+    color: #993700;
+}
+.ruby-ivar {
+    color: #663499;
+}
+.ruby-operator {
+    color: #00ffee;
+}
+.ruby-identifier {
+    color: #2A2A2A;
+}
+.ruby-node {
+    color: #991E62;
+}
+.ruby-comment {
+    color: #C6C6C6; 
+    font-style: italic;
+}
+.ruby-regexp {
+    color: #FFBF00;
+}
+.ruby-value {
+    color: #4D9912;
+}
